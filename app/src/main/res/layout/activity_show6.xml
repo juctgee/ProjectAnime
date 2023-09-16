@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D4D4"
+    tools:context=".Activity.show6">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="388dp"
+        android:layout_height="312dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/clannad" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:text="Clannad"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="365dp"
+        android:layout_height="252dp"
+        android:text="“โอกาซากิ โทโมยะ” นักเรียนชั้นมัธยมปลาย ใช้ชีวิตอยู่กับพ่อเพียงสองคน เนื่องจากแม่ของเขาได้เสียชีวิตไปตั้งแต่ตอนยังเป็นเด็ก  หลักจากเหตุการณ์นั้น พ่อของโทโมยะก็ได้เอาแต่กินเหล้า ติดการพนันอย่างหนัก  เมื่อตอนที่ โทโมยะ ยังเรียนอยู่มัธยมต้นนั้น โทโมยะเป็นถึงบาสของทีมโรงเรียน แต่แล้ววันหนึ่ง โทโมยะได้ทะเลาะกับพ่ออย่างรุนแรง จนพ่อได้ผลักโทโมยะไปชนกับกำแพง จนทำให้ไหล่หลุด จนทำให้ฝันของโทโมยะต้องพังลงเพราะไม่สามารถเล่นบาสได้อีก ทำให้เขาได้ใช้ชีวิตไปวันๆ ไม่ใส่ใจการเรียน เพื่อนของเขามีเพียง ซุโนฮาระ โยเฮย์ ที่มีชื่อเสียงว่าเป็นเด็กเกเรชีวิตของเขาดำเนิน ไปเหมือนเบื่อหน่ายอยู่ไปวัน ๆทำให้คนรอบข้าง มองเขา กับเพื่อนว่าเป็นเด็กมีปัญหา"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="207dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/clo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

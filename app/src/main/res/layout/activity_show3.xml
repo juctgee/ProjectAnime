@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D4D4"
+    tools:context=".Activity.show3">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="380dp"
+        android:layout_height="226dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/stone" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
+        android:text="Dr.Stone"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="373dp"
+        android:layout_height="313dp"
+        android:text="Dr Stone เป็นอนิเมะที่น่าดูมากเลยเอามาแนะนำให้เพื่อน ๆ นะครับเป็นอนิเมะมนุษย์ที่ถูกแสงบางอย่างระเบิดทำให้กลายเป็นหินและผ่านมา 3000 ปีแต่มนุษย์นั้นยังมีชีวิตอยู่ภายในหิน !! ด้วยเนื้อเรื่องที่น่าติดตามดูและสนุกมาก ผมอ่านตั้งแต่ตอนเป็นมังงะแล้วเรื่องนี้สนุกตั้งแต่มังงะ ยัน อนิเมะเลยจริง ๆ เรื่องนี้ ดูแล้วแล้วทั้งความรู้เรื่องวิทยาศาสตร์มาก เพราะเนื้อเรื่องผสสมการสอนวิทยาศาสตร์เข้ามาด้วยโดยใช้หลักการจริง แต่เข้าใจง่ายสุด ๆ"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="352dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/dr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

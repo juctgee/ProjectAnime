@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D4D4"
+    tools:context=".Activity.show5">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="388dp"
+        android:layout_height="231dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kokoro" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="222dp"
+        android:layout_height="43dp"
+        android:text="Kokoro-Cannect"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="384dp"
+        android:layout_height="262dp"
+        android:text="เป็นเรื่องราวที่เกิดจากชมรมวิจัยวัฒนธรรมในโรงเรียน ยามาโบชิ ที่ดูเผิน ๆ แล้วอาจเป็นอีกหนึ่งชมรมวรรณกรรมธรรมดา ๆ  หากว่าไม่เกิดเหตุการณ์ “สลับร่าง” ขึ้น เมื่อจิตใจสลับกัน เราก็ได้รู้สึกถึงหัวใจของคนคนนั้น ชมรมนี้ประกอบไปด้วยนักเรียนชั้นม.ปลายปี 1 ห้าคน คือ คนที่เหมือนจะเป็นพระเอก “ยาเองาชิ ไทจิ” เด็กหนุ่มผู้ชื่นชอบมวยปล้ำ เด็กสาวผู้ร่าเริงสดใส และ ทำอะไรไม่ค่อยจะเห็นหัวพระเอกเท่าไหร่ “นางาเสะ อิโอริ” หัวหน้าชมรมสุดเย็นชา “อินาบะ ฮิเมโกะ” “คิริยามะ ยุย” คุณหนูผมทองผู้มีความลับที่ไม่อาจเปิดเผยอยู่ และ”อาโอกิ โยชิฟุมิ” ชายหนุ่มที่เข้าตำราหน้าตาดีแต่ไม่เอาอ่าวสุด ๆ"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="377dp"
+        android:layout_height="261dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/koko" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D4D4"
+    tools:context=".Activity.show2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="388dp"
+        android:layout_height="293dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tokyo" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="249dp"
+        android:layout_height="60dp"
+        android:background="#E3D4D4"
+        android:text="Tokyo Ghoul"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="376dp"
+        android:layout_height="266dp"
+        android:text="เป็นเรื่องหนุ่มที่เติบโตมาแบบไม่ค่อยได้เรื่องได้ราวสักเท่าไหร่ อย่าง &quot;ทาเคมิจิ&quot; ในวัยอายุ 26  ปีของเขานั้น เป็นชีวิตที่น่าเหนื่อยหน่าย ใช้ชีวิตคนเดียว ทำอะไรก็ผิดพลาดไปซะหมด ชีวิตที่ต้องคอยเอ่ยคำว่า ขอโทษอยู่ร่ำไป แล้วยังพบข่าวที่น่าเศร้าของอดีตแฟนเก่าคนเดียวในชีวิตที่เคยคบกันตอนอยู่ ม.ต้น อย่าง &quot;ฮินาตะ&quot; เสียชีวิต เนื่องจากถูกฆาตกรรมโดยสมาพันธ์วายร้าย “โตเกียวมันจิไค” และหลังจากรู้ข่าวเศร้า วันถัดไประหว่างรอรถไฟ ทาเคมิจิ ก็ถูกมือปริศนาผลักหล่นลงไปบนรางรถไฟ เมื่อเขารู้สึกตัวอีกครั้งเขาก็ย้อนเวลากลับไปยังสมัย ม.ต้นเมื่อ 12 ปีก่อน และนั่นคือจุดเริ่มต้นของเรื่องราวทั้งหมด เขาจะต้องย้อนเวลากลับไป เพื่อแก้ไขเรื่องราวในอดีต เพื่อเปลี่ยนแปลงเหตุการณ์ในอนาคต เพื่อให้ตัวเองแข็งแกร่งขึ้น เพื่อให้ฮินาตะมีชีวิตต่อไป "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="251dp"
+        android:layout_height="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/tok" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

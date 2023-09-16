@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D4D4"
+    tools:context=".Activity.show1">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="388dp"
+        android:layout_height="306dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/clover" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="237dp"
+        android:layout_height="65dp"
+        android:text="BlackClover"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="386dp"
+        android:layout_height="234dp"
+        android:text="Black Clover แบล็กโคลเวอร์ เรื่องนี้อาจจะคุ้นหูคุ้นตากันหลาย ๆ คนมาแล้วแต่ก็เชื่อว่าหลายคนที่ยังไม่เคยดูส่วนตัวผมก็ด้วยเห็นเรื่องนี้มานานแล้วแต่ก็ไม่เคยคิดจะดูเลย แต่พอได้มาดูจริง ๆ แล้วมันสนุกอยู่นะครับ ก็ไม่เข้าใจว่าอนิเมะเรื่องนี้ทำไมคนถึงไม่ค่อยดูกันวันนี้เลยหยิบเอามารีวิวความสนุกให้ได้อ่านกัน และเรื่องก็สารมารถดุได้ยาว ๆ เลยถ้าเพิ่งจะเริ่มดูเพราะมีเป็นร้อยตอน (ฮา) เรื่องราวของเด็กกำพร้า อัสต้าและยูโน ที่อาศัยอยู่ที่โบสถ์ที่ชนบทแห่งหนึ่ง บนโลกนี้ทุกคนล้วนมีพลังเวทกันทุกคน แต่อัสต้ากับไม่มีพลังเวทอะไรเลยแต่นั้นก็ไม่ได้ทำให้เขาท้อหรือยอมแพ้ที่จะทำตามความฝัน ถึงแม้จะโดนคนอืนหัวเราะว่าไม่มีพลังเวท !!"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="382dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
